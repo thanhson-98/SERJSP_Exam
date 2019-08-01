@@ -25,23 +25,23 @@
 
         <div class="form-group">
             <label for="FullName">FullName</label>
-            <input type="password" class="form-control" name="FullName">
+            <input type="text" class="form-control" name="FullName">
         </div>
         <div class="form-group">
             <label for="Address">Address</label>
-            <input type="password" class="form-control" name="Birthday">
+            <input type="text" class="form-control" name="Birthday">
         </div>
         <div class="form-group">
             <label for="BirthDay">BirthDay</label>
-            <input type="password" class="form-control" name="Address">
+            <input type="text" class="form-control" name="Address">
         </div>
         <div class="form-group">
             <label for="Position">Position</label>
-            <input type="password" class="form-control" name="Position">
+            <input type="text" class="form-control" name="Position">
         </div>
         <div class="form-group">
             <label for="Department">Department</label>
-            <input type="password" class="form-control" name="Department">
+            <input type="text" class="form-control" name="Department">
         </div>
         <input type="submit" class="btn btn-primary btn-block">
         <input type="Reset" class="btn btn-primary btn-block">

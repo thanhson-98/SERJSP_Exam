@@ -30,7 +30,7 @@ public class CreateEmployeeController extends HttpServlet {
         employee.setAddress(Address);
         employee.setPosition(Position);
         employee.setDepartment(Department);
-        ofy().save().entity(Employee.class).now();
+        ofy().save().entity(employee).now();
         resp.getWriter().println("Create success");
         resp.sendRedirect("/list");
     }
