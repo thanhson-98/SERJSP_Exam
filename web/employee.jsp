@@ -20,7 +20,7 @@
 <body>
 
 <div class="d-flex justify-content-center align-items-center" style="height: 100%">
-    <form method="post" class="col-lg-4 col-sm-6" action="/employee.jsp">
+    <form method="post" class="col-lg-4 col-sm-6" action="/create">
         <h4 class="text-center mb-4">Register</h4>
 
         <div class="form-group">
