@@ -32,6 +32,6 @@ public class CreateEmployeeController extends HttpServlet {
         employee.setDepartment(Department);
         ofy().save().entity(Employee.class).now();
         resp.getWriter().println("Create success");
-        resp.sendRedirect("/employee/list");
+        resp.sendRedirect("/list");
     }
 }
